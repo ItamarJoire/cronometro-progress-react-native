@@ -4,15 +4,15 @@ import styled from 'styled-components/native';
 import { useEffect } from 'react';
 import { useRef } from 'react';
 
-const EMPTY_COLOR = '#a0a0a1';
-const PROGRESS_COLOR = '#0085ff';
-const SIZE = 200;
+const EMPTY_COLOR = 'rgba(97, 98, 109, 0.3)';
+const PROGRESS_COLOR = '#6645ed';
+const SIZE = 240;
 
 const CircleBase = styled(Animated.View)`
     width: ${SIZE}px;
     height: ${SIZE}px;
     border-radius: ${SIZE / 2}px;
-    border-width: 15px;
+    border-width: 18px;
 `;
 
 const EmptyCircle = styled(CircleBase)`
