@@ -8,7 +8,7 @@ export default function App() {
   return (
     <View style={styles.container}> 
       <CircularProgress progress={50}/>
-      {/* <StatusBar style="auto" /> */}
+      <StatusBar style="auto" />
     </View>
   );
 }
